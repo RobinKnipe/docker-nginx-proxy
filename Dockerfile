@@ -36,7 +36,7 @@ RUN apk del shadow
 
 WORKDIR /usr/local/openresty
 
-ENTRYPOINT ["/bin/sh"]
+ENTRYPOINT ["/go.sh"]
 
 EXPOSE 10080
 EXPOSE 10443
